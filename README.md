@@ -12,14 +12,11 @@ Review commit tree here: [commit tree](https://github.com/MorickClive/Vale-Javas
 Objective List:
 
 - [ ] Fundamentals/Flow-of-Control
-	- [ ] Variables
-		- [ ] Var/Let/Const
-		- [ ] Assignment
-		- [ ] Hoisting/Scope
-		- [ ] Types
-			- [ ] Booleans
-			- [ ] Strings
-			- [ ] Numbers
+	- [X] Variables
+		- [X] Var/Let/Const
+		- [X] Assignment
+		- [X] Hoisting/Scope
+		- [X] Types
 	- [ ] Functions
 		- [ ] Declaration
 		- [ ] Expression
