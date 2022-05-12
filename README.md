@@ -13,10 +13,12 @@ Objective List:
 
 - [ ] Fundamentals/Flow-of-Control
 	- [X] Variables
-		- [X] Var/Let/Const
-		- [X] Assignment
-		- [X] Hoisting/Scope
-		- [X] Types
+		- [X] var/let/const
+		- [X] assignment
+		- [X] hoisting/scope
+		- [X] types
+		- [X] bitwise
+		- [X] type parsing
 	- [X] Functions
 		- [X] Declaration
 		- [X] Expression
@@ -24,16 +26,16 @@ Objective List:
 		- [X] IIFE
 	- [X] Operators
 		- [X] Arithmetic
-		- [X] Asignment
+		- [X] Assignment
+		- [X] Logical Operators
 		- [X] Concatenation
 	- [X] Comparisons
 		- [X] if-elseif-else
 		- [X] switch-case
-		- [ ] typeOf
-		- [ ] Bitwise
-	- [ ] Arrays
+		- [X] instanceof
+		- [X] typeof
+	- [X] Arrays
 		- [X] Array Objects
-		- [ ] Sets/Maps
 	- [X] Loops 
 		- [X] for
 		- [X] while
@@ -46,6 +48,8 @@ Objective List:
 	- [ ] Objects
 		- [ ] Classes
 		- [ ] JSON
+	- [ ] Sets
+		- [ ] Sets/Maps 
 - [ ] Dynamic Webpage Interactions
 	- [ ] DOM Manipulation
 	- [ ] Callbacks

@@ -144,6 +144,44 @@ var exampleVar;
 	console.log("typeof: exampleArray = " + typeof exampleArray);
 	console.log("typeof: exampleObject = " + typeof exampleObject);
 	
+	// Type Parsing
+	// Primitives: Boolean, Null, Undefined, Number, BigInt, String, Symbol, NaN(Number:`Not a Number`)
+	
+	// Javascript provides the following wrapper objects that can translate data types for appropriate handling
+	//	- Number("12");
+	//	- parseFloat("12.5")
+	//	- parseInt("12.5") // should return 12 - the process removes decimal values via "truncation"(Integers are whole numbers)
+	//	- String(12) // returns "12"; we can also use concatenation which we'll observe in operators
+	
+	// Bitwise operations allow us to change numeric data by controlling their binary equalivant value.
+	// observe the following values and their binary equal.
+	let x = 5; // 0101
+	let y = 1; // 0001
+	
+	// | - or
+	// Will compare bits and will return a 1 as long as 1 bit exists:
+	// 0101
+	// 0001
+	// ----
+	// 0101 = 5
+	console.log("x | y: " + (x | y));
+	
+	// & - and
+	// Will compare bits and will only return a 1 as long as both positions have 1 bit:
+	// 0101
+	// 0001
+	// ----
+	// 0001 = 1	
+	console.log("x & y: " + (x & y));
+	
+	// ~ - not 
+	// flips bits, thus 1->0 and 0->1
+	// 0101
+	// ----
+	// 1010 (however, all the 0s stored before these 4 bits are also flipped, resulting in -6)
+	console.log("~x: " + ~x);
+	
+	// There are also bit shift operations, however they won't be reviewed here.
 	sectionEnd();
 }
 
@@ -391,6 +429,44 @@ var exampleVar;
 	
 	console.log("switch case result: " + checkNumber(result));
 	console.log("switch case defaults: " + checkNumber(12));
+	
+	// Logical Operators
+	// in some statements, logical operators might change the context of a conditional statement
+	// by incorperating a range of conditions or multiple requirements for it to be considered "true".
+	
+	// || - logical Or
+	// Only one condition in the logical `Or` needs to be true for the expression to evaluate to true overall
+	if(number > 1 || number < 5){
+		console.log("Logical Or");
+	}
+	
+	// && - logical And
+	// Both conditions in the logical `And` need to be true for the expression to evaluate to true overall
+	if(number > 1 && number < 5){
+		console.log("Logical And");
+	}
+	
+	// ! - logical Not/Inverse
+	if( !(number == 10) ){ // which would be arguablly considered equal to number != 10`
+		console.log("Logical Not");
+	}
+	
+	// Ternary operator
+	console.log(number > 5 ? "number is greater than 5" : "number is not greater than 5");
+	
+	// instanceof
+	// We can use the `instanceof` keyword to check if a data type is an example of a complex data type 
+	// (of which has a constructor - we'll review this in object/classes)
+	let x = new String("word");
+	
+	// Note that we can't do this with the primative data type `String x = "word"`
+	if( x instanceof String){
+		console.log("x is a String");
+	}
+	
+	// typeof
+	// we can, however, use the comparision operator `typeof x === "String"`
+	console.log( typeof "word" === "string" ? "\"word\" is a primative String" : "\"word\" is not a primative String")
 	
 	sectionEnd();
 }
