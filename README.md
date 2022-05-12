@@ -11,36 +11,45 @@ Review commit tree here: [commit tree](https://github.com/MorickClive/Vale-Javas
 
 Objective List:
 
-- [ ] Fundamentals/Flow-of-Control
+- [X] Fundamentals/Flow-of-Control
 	- [X] Variables
-		- [X] Var/Let/Const
+		- [X] var/let/const
+		- [X] assignment
+		- [X] hoisting/scope
+		- [X] types
+		- [X] bitwise
+		- [X] type parsing
+	- [X] Functions
+		- [X] Declaration
+		- [X] Expression
+		- [X] Anonymous
+		- [X] IIFE
+	- [X] Operators
+		- [X] Arithmetic
 		- [X] Assignment
-		- [X] Hoisting/Scope
-		- [X] Types
-	- [ ] Functions
-		- [ ] Declaration
-		- [ ] Expression
-		- [ ] Anonymous
-	- [ ] Operators
-		- [ ] Arithmetic
-	- [ ] Arrays
-		- [ ] Sets/Maps
-	- [ ] Comparisons
-		- [ ] if else
-		- [ ] switch
-		- [ ] Typeof
-		- [ ] Bitwise
-	- [ ] Loops 
-		- [ ] for
-		- [ ] While
-		- [ ] Break
-		- [ ] for IN
-		- [ ] for of
-	- [ ] Iterable
+		- [X] Logical Operators
+		- [X] Concatenation
+	- [X] Comparisons
+		- [X] if-elseif-else
+		- [X] switch-case
+		- [X] instanceof
+		- [X] typeof
+	- [X] Arrays
+		- [X] Array Objects
+	- [X] Loops 
+		- [X] for
+		- [X] while
+		- [X] do-while
+		- [X] for-in
+		- [X] for-of
+		- [X] break
+		- [X] continue
 - [ ] Object-Oriented
 	- [ ] Objects
 		- [ ] Classes
 		- [ ] JSON
+	- [ ] Sets
+		- [ ] Sets/Maps 
 - [ ] Dynamic Webpage Interactions
 	- [ ] DOM Manipulation
 	- [ ] Callbacks
