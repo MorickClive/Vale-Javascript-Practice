@@ -26,20 +26,22 @@ Objective List:
 		- [X] Arithmetic
 		- [X] Asignment
 		- [X] Concatenation
-	- [ ] Comparisons
-		- [ ] if else
-		- [ ] switch
-		- [ ] Typeof
+	- [X] Comparisons
+		- [X] if-elseif-else
+		- [X] switch-case
+		- [ ] typeOf
 		- [ ] Bitwise
 	- [ ] Arrays
+		- [X] Array Objects
 		- [ ] Sets/Maps
-	- [ ] Loops 
-		- [ ] for
-		- [ ] While
-		- [ ] Break
-		- [ ] for IN
-		- [ ] for of
-	- [ ] Iterable
+	- [X] Loops 
+		- [X] for
+		- [X] while
+		- [X] do-while
+		- [X] for-in
+		- [X] for-of
+		- [X] break
+		- [X] continue
 - [ ] Object-Oriented
 	- [ ] Objects
 		- [ ] Classes
