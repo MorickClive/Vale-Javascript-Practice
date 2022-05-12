@@ -1,3 +1,14 @@
+
+// ========================================
+// Section end
+
+const sectionEnd = () => {
+	console.log("\n========================================\nSECTION END\n========================================");
+}
+const sectionHead = (section) => {
+	console.log("\n" + section + "\n========================================");
+}
+
 // ========================================
 // Vale-JS-Variables
 
@@ -34,8 +45,7 @@ var exampleVar;
 // Assignment
 
 {
-	const section = "Javascript Variables/Assignments:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Variables/Assignments:");
 	
 	// let is a variable that respects its current scope; here we declare `exampleLet` - it has no data stored as of yet.
 	let exampleLet;
@@ -88,8 +98,7 @@ var exampleVar;
 // the data type generally is inferred when the value is provided, generally through initialisation or first time assignment.
 
 {
-	const section = "Javascript Types:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Types:");
 	
 	// ========================================
 	// Types - Booleans
@@ -134,14 +143,15 @@ var exampleVar;
 	console.log("typeof: exampleNum = " + typeof exampleNum);
 	console.log("typeof: exampleArray = " + typeof exampleArray);
 	console.log("typeof: exampleObject = " + typeof exampleObject);
+	
+	sectionEnd();
 }
 
 // ========================================
 // Operators
 
 {
-	const section = "Javascript Operators:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Operators:");
 	
 	// Handling of raw data in javascript can be controlled with arithmetic operators
 	// these will allow us to perform mathematical operations as an expression, we can even use other variables to handle 
@@ -191,14 +201,15 @@ var exampleVar;
 	
 	let message = "Our number is: " + result;
 	console.log(message);
+	
+	sectionEnd();
 }
 
 // ========================================
 // Assignment Operators
 
 {
-	const section = "Javascript Assignment Operators:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Assignment Operators:");
 	
 	// Just like arithemtic operators, javascript also supports assignment operators.
 	// These operators perform relative action based on the value stored inside a variable
@@ -238,22 +249,14 @@ var exampleVar;
 	result **= 5;
 	console.log("result **= 5: " + result);
 	
-}
-
-// ========================================
-// Section end
-
-{
-	const section = "SECTION END";
-	console.log("\n========================================\n" + section + "\n========================================");
+	sectionEnd();
 }
 
 // ========================================
 // Vale-JS-Functions
 
 {
-	const section = "Javascript Functions:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Functions:");
 	
 	// A  function is declared with the keyword `function` in conjunction with a `name`, a parameter list `()` and scope `{}`
 	// here is a greeting function that'll return a value using the `return` keyword
@@ -290,7 +293,7 @@ var exampleVar;
 	// a few preexisting functionalities and even accept these as part of their parameters.
 	const div = (x,y) => { x / y};
 	
-	console.log("arrow function: 5/5 = " + number(div(5/2)));
+	console.log("arrow function: 5/5 = " + div(5/2) );
 	
 	// IIFE or immediately-invoked function expressions are a way of running
 	// defined code directly after definition.
@@ -300,95 +303,116 @@ var exampleVar;
 	
 	// IIFE allows us to encapsulate variables and functionally within file scope rather than global scope - avoiding poluting additional.
 	// it can also be used with async keyword functionality.
-}
-
-// ========================================
-// Section END
-{
-	const section = "SECTION END";
-	console.log("\n========================================\n" + section + "\n========================================");
+	
+	sectionEnd();
 }
 
 // ========================================
 // Vale-JS-Comparators
 
 {
-	const section = "Javascript Comparators:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Comparators:");
 	
-	// ==
+	const number = 5;
 	
-	// >
+	// if(){}
+	// based on a boolean value, either the contents of the if scope will run
+	// otherwise it is ignored if the value is false.	
+	console.log("number: " + number);
 	
-	// <
+	// == - compare values
+	if( number == 5 ){
+		console.log("number == 5: " + true);
+	}
 	
-	// >=
+	// > - greater than value
+	console.log("number > 5: " + (number > 5));
 	
-	// <=
+	// < - less than value
+	console.log("number < 5: " + (number < 5));
 	
-	// !=
+	// >= - greater than or equal to value
+	console.log("number >= 5: " + (number >= 5));
 	
-	// ===
+	// <= - less than or equal to values
+	console.log("number <= 5: " + (number <= 5));
 	
-	// !==
+	// != - not equal value
+	console.log("number != 5: " + (number != 5));
 	
-	console.log( greeting() );
-}
-
-// ========================================
-// Section END
-{
-	const section = "SECTION END";
-	console.log("\n========================================\n" + section + "\n========================================");
+	// === - compare type
+	console.log("(\"String\" === \"Another String\"): " +  ("String" === "Another String"));
+	
+	// !== - not equal type
+	console.log("(\"String\" !== 5): " +  ("String" !== 5));
+	
+	// elif
+	
+	if(number < 5) {
+		
+	} else {
+		console.log("else triggered!");
+	}
+	
+	if(number == 6) {
+	} else if (number == 5) {
+		console.log("else if triggered!");
+	}
+	
+	// Switch-Case
+	// allow us to use a data value to compare againest comparitive cases,
+	// executing code blocks under cases that are triggered.
+	let result = 4;
+	
+	function checkNumber(x) {
+		switch (x) {
+			case 1:
+				return "returned 1";
+			// Without a break, the code would execute case 2 as well
+			// the break keyword.
+			break;
+			case 2:
+				return "returned 2";
+			break;
+			case 3:
+				return "returned 3";
+			break;
+			case 4:
+				return "returned 4";
+			break;
+			case 5:
+				return "returned 5";
+			break;
+			
+			default:
+				return "an error occured";
+		}
+	}
+	
+	console.log("switch case result: " + checkNumber(result));
+	console.log("switch case defaults: " + checkNumber(12));
+	
+	sectionEnd();
 }
 
 // ========================================
 // Vale-JS-Arrays
 
 {
-	const section = "Javascript Arrays:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Arrays:");
 	
-	console.log( greeting() );
-}
 
-// ========================================
-// Section END
-{
-	const section = "SECTION END";
-	console.log("\n========================================\n" + section + "\n========================================");
+	
+	sectionEnd();
 }
 
 // ========================================
 // Vale-JS-Iteration
 
 {
-	const section = "Javascript Iteration:";
-	console.log("\n" + section + "\n========================================");
+	sectionHead("Javascript Iteration:");
 	
-	console.log( greeting() );
-}
 
-// ========================================
-// Section END
-{
-	const section = "SECTION END";
-	console.log("\n========================================\n" + section + "\n========================================");
-}
-
-// ========================================
-// Vale-JS-Iteration
-
-{
-	const section = "Javascript Iteration:";
-	console.log("\n" + section + "\n========================================");
 	
-	console.log( greeting() );
-}
-
-// ========================================
-// Section END
-{
-	const section = "SECTION END";
-	console.log("\n========================================\n" + section + "\n========================================");
+	sectionEnd();
 }
