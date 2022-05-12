@@ -11,7 +11,7 @@ Review commit tree here: [commit tree](https://github.com/MorickClive/Vale-Javas
 
 Objective List:
 
-- [ ] Fundamentals/Flow-of-Control
+- [X] Fundamentals/Flow-of-Control
 	- [X] Variables
 		- [X] var/let/const
 		- [X] assignment
