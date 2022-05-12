@@ -17,19 +17,22 @@ Objective List:
 		- [X] Assignment
 		- [X] Hoisting/Scope
 		- [X] Types
-	- [ ] Functions
-		- [ ] Declaration
-		- [ ] Expression
-		- [ ] Anonymous
-	- [ ] Operators
-		- [ ] Arithmetic
-	- [ ] Arrays
-		- [ ] Sets/Maps
+	- [X] Functions
+		- [X] Declaration
+		- [X] Expression
+		- [X] Anonymous
+		- [X] IIFE
+	- [X] Operators
+		- [X] Arithmetic
+		- [X] Asignment
+		- [X] Concatenation
 	- [ ] Comparisons
 		- [ ] if else
 		- [ ] switch
 		- [ ] Typeof
 		- [ ] Bitwise
+	- [ ] Arrays
+		- [ ] Sets/Maps
 	- [ ] Loops 
 		- [ ] for
 		- [ ] While
