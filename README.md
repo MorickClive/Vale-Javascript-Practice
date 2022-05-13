@@ -53,8 +53,8 @@ Objective List:
 			- [X] static
 			- [X] super
 		- [X] JSON
-	- [ ] Sets
-		- [ ] Sets/Maps 
+	- [X] Sets
+		- [X] Sets/Maps 
 - [ ] Dynamic Webpage Interactions
 	- [ ] DOM Manipulation
 	- [ ] Callbacks
