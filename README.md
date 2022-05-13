@@ -44,6 +44,7 @@ Objective List:
 		- [X] for-of
 		- [X] break
 		- [X] continue
+- [X] Modules
 - [ ] Object-Oriented
 	- [ ] Objects
 		- [ ] Classes
