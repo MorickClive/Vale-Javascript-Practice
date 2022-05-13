@@ -45,14 +45,14 @@ Objective List:
 		- [X] break
 		- [X] continue
 - [X] Modules
-- [ ] Object-Oriented
-	- [ ] Objects
+- [X] Object-Oriented
+	- [X] Objects
 		- [X] Classes
 			- [X] constructor
 			- [X] extends
 			- [X] static
 			- [X] super
-		- [ ] JSON
+		- [X] JSON
 	- [ ] Sets
 		- [ ] Sets/Maps 
 - [ ] Dynamic Webpage Interactions

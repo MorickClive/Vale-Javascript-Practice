@@ -6,6 +6,8 @@ import comparisonExample from "./fundamentals/vale-js-comparisons.js";
 import arrayExample from "./fundamentals/vale-js-arrays.js";
 import iterationExample from "./fundamentals/vale-js-iterations.js";
 import oopExample from "./oop/object-oriented.js";
+import jsonExample from "./oop/jsonExamples.js";
+import setsExample from "./oop/setExample.js";
 
 console.log("!!! Modules Active !!!");
 
@@ -32,3 +34,11 @@ iterationExample();
 // ========================================
 // Vale-JS-ClassObjects
 oopExample();
+
+// ========================================
+// Vale-JS-ClassObjects
+jsonExample();
+
+// ========================================
+// Vale-JS-Sets-Maps
+setsExample();
