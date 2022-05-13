@@ -47,7 +47,11 @@ Objective List:
 - [X] Modules
 - [ ] Object-Oriented
 	- [ ] Objects
-		- [ ] Classes
+		- [X] Classes
+			- [X] constructor
+			- [X] extends
+			- [X] static
+			- [X] super
 		- [ ] JSON
 	- [ ] Sets
 		- [ ] Sets/Maps 

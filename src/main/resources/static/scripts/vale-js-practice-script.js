@@ -5,6 +5,7 @@ import functionExample from "./fundamentals/vale-js-functions.js";
 import comparisonExample from "./fundamentals/vale-js-comparisons.js";
 import arrayExample from "./fundamentals/vale-js-arrays.js";
 import iterationExample from "./fundamentals/vale-js-iterations.js";
+import oopExample from "./oop/object-oriented.js";
 
 console.log("!!! Modules Active !!!");
 
@@ -27,3 +28,7 @@ arrayExample();
 // ========================================
 // Vale-JS-Iteration
 iterationExample();
+
+// ========================================
+// Vale-JS-ClassObjects
+oopExample();

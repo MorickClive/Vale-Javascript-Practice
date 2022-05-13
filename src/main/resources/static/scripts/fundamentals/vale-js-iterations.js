@@ -1,5 +1,5 @@
 "use strict";
-import {sectionHead, sectionEnd} from "./util/vale-js-utilities.js";
+import {sectionHead, sectionEnd} from "../util/vale-js-utilities.js";
 
 
 export const iterationExample = () => {
