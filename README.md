@@ -44,12 +44,17 @@ Objective List:
 		- [X] for-of
 		- [X] break
 		- [X] continue
-- [ ] Object-Oriented
-	- [ ] Objects
-		- [ ] Classes
-		- [ ] JSON
-	- [ ] Sets
-		- [ ] Sets/Maps 
+- [X] Modules
+- [X] Object-Oriented
+	- [X] Objects
+		- [X] Classes
+			- [X] constructor
+			- [X] extends
+			- [X] static
+			- [X] super
+		- [X] JSON
+	- [X] Sets
+		- [X] Sets/Maps 
 - [ ] Dynamic Webpage Interactions
 	- [ ] DOM Manipulation
 	- [ ] Callbacks
