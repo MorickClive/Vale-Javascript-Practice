@@ -16,7 +16,7 @@ const ajaxExample = () => {
 	
 	// in order to do this, we can use AJAX and in particular the XMLHttpRequest class object
 
-	function restRequest(method, url) {
+	function restRequest(method, url, retrieveXML = false) {
 		
 		// In this example we'll contain the functionality within a function
 		let req = new XMLHttpRequest();
@@ -28,7 +28,20 @@ const ajaxExample = () => {
 		req.open(method, url);
 		req.onload = function() {
 			if (req.status == 200) {
-				uiConsoleOut("[AJAX]: " + this.responseText);
+				let txt = "";
+				
+				if(retrieveXML){
+					const xml = this.responseXML.getElementsByTagName("p");
+				
+					for(let element of xml[0].childNodes) {
+						txt +=  element.nodeValue + "<br>";
+					}
+					
+				} else {
+					txt = this.responseText;
+				}
+				
+				uiConsoleOut("[AJAX]: " + txt);
 			} else {
 				uiConsoleOut("Error: " + req.status);
 			}
@@ -37,6 +50,9 @@ const ajaxExample = () => {
 	}		
 	
 	restRequest("GET", "portal/greetings");
+	
+	// We can also return data in a xml format
+	restRequest("GET", "./ajax-test/test.xml", true);
 	
 	sectionEnd();
 }

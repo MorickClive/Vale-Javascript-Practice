@@ -55,7 +55,7 @@ Objective List:
 		- [X] JSON
 	- [X] Sets
 		- [X] Sets/Maps 
-- [ ] Dynamic Webpage Interactions
+- [X] Dynamic Webpage Interactions
 	- [X] DOM Manipulation
 	- [X] Callbacks
 		- [X] Promises
