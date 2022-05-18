@@ -57,8 +57,10 @@ Objective List:
 		- [X] Sets/Maps 
 - [ ] Dynamic Webpage Interactions
 	- [X] DOM Manipulation
-	- [ ] Callbacks
-		- [ ] Async/AJAX
+	- [X] Callbacks
+		- [X] Promises
+		- [X] Async/Await
+		- [X] AJAX
 - [ ] SPA/Single-Page Application 
 	- [ ] UI Router Framework
 

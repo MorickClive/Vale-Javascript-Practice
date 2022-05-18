@@ -9,7 +9,9 @@ import oopExample from "./oop/object-oriented.js";
 import jsonExample from "./oop/jsonExamples.js";
 import setsExample from "./oop/setExample.js";
 import domExample from "./webpageUI/domElements.js";
-import callbackExample from "./webpageUI/callback.js"
+import callbackExample from "./webpageUI/callback.js";
+import asyncExample from "./webpageUI/async.js";
+import ajaxExample from "./webpageUI/ajax.js";
 
 console.log("!!! Modules Active !!!");
 
@@ -55,3 +57,9 @@ callbackExample();
 
 // ========================================
 // Vale-Async
+asyncExample();
+
+
+// ========================================
+// Vale-AJAX-AsynchronousJavaScriptAndXML
+ajaxExample();

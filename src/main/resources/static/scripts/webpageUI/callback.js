@@ -2,7 +2,7 @@
 import {sectionHead, sectionEnd} from "../util/vale-js-utilities.js";
 
 const callbackExample = () => {
-	sectionHead("Javascript CallBacks Async:");
+	sectionHead("Javascript CallBacks:");
 	
 	// Callback:
 	// ========================================

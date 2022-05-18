@@ -9,6 +9,16 @@ const sectionHead = (section) => {
 	console.log("\n" + section + "\n========================================");
 }
 
+const uiConsoleOut = (msg) => {
+	const element = document.createElement("p");
+	const targ = document.getElementsByClassName("window")[0];
+	
+	element.innerHTML = "[CONSOLE]: <br />" + msg.replaceAll("\n","<br \>");
+	
+	targ.appendChild(element);
+	targ.scrollTop = targ.scrollHeight;		
+}
+
 // Console - IIFE
 (() => {
 	function clearConsole(){
@@ -91,4 +101,4 @@ const sectionHead = (section) => {
 	createConsole();
 })();
 
-export {sectionHead, sectionEnd};
+export {sectionHead, sectionEnd, uiConsoleOut};
