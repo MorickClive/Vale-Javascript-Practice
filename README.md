@@ -56,7 +56,7 @@ Objective List:
 	- [X] Sets
 		- [X] Sets/Maps 
 - [ ] Dynamic Webpage Interactions
-	- [ ] DOM Manipulation
+	- [X] DOM Manipulation
 	- [ ] Callbacks
 		- [ ] Async/AJAX
 - [ ] SPA/Single-Page Application 

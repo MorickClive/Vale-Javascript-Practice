@@ -8,6 +8,7 @@ import iterationExample from "./fundamentals/vale-js-iterations.js";
 import oopExample from "./oop/object-oriented.js";
 import jsonExample from "./oop/jsonExamples.js";
 import setsExample from "./oop/setExample.js";
+import domExample from "./webpageUI/domElements.js";
 
 console.log("!!! Modules Active !!!");
 
@@ -42,3 +43,7 @@ jsonExample();
 // ========================================
 // Vale-JS-Sets-Maps
 setsExample();
+
+// ========================================
+// Vale-DynamicWebpageInteractions
+domExample();
