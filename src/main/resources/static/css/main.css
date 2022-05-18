@@ -69,6 +69,7 @@ padding: 0;
     border-style: inset;
     border-width: 1px;
     margin: 5px;
+    padding-top: 15px;
     padding-left: 20px;
     height: inherit;
     overflow-y: auto;

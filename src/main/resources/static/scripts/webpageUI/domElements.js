@@ -72,27 +72,6 @@ const domExample = () => {
 	
 	mainElement.appendChild(buttonElement);
 	
-	// Console input:	
-	const submit = document.getElementById("submitConsole");
-	const input = document.getElementById("consoleInput");
-	
-	function submitEntry(x) {
-		const element = document.createElement("p");
-		const targ = document.getElementsByClassName("window")[0];
-		element.innerHTML = x.value;
-		x.value = "";
-		
-		targ.appendChild(element);
-		targ.scrollTop = targ.scrollHeight;
-	}
-	
-	submit.onclick = () => {submitEntry(input)};
-	input.addEventListener('keypress', function (e) {
-	    if (e.key === 'Enter') {
-	      submitEntry(input);
-	    }
-	});
-	
 	sectionEnd();
 }
 

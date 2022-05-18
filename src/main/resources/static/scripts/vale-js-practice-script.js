@@ -9,6 +9,7 @@ import oopExample from "./oop/object-oriented.js";
 import jsonExample from "./oop/jsonExamples.js";
 import setsExample from "./oop/setExample.js";
 import domExample from "./webpageUI/domElements.js";
+import callbackExample from "./webpageUI/callback.js"
 
 console.log("!!! Modules Active !!!");
 
@@ -47,3 +48,10 @@ setsExample();
 // ========================================
 // Vale-DynamicWebpageInteractions
 domExample();
+
+// ========================================
+// Vale-CallBacks
+callbackExample();
+
+// ========================================
+// Vale-Async
