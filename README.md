@@ -61,8 +61,6 @@ Objective List:
 		- [X] Promises
 		- [X] Async/Await
 		- [X] AJAX
-- [ ] SPA/Single-Page Application 
-	- [ ] UI Router Framework
 
 ### Calculator Example
 
