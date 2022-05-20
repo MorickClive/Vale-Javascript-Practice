@@ -55,12 +55,12 @@ Objective List:
 		- [X] JSON
 	- [X] Sets
 		- [X] Sets/Maps 
-- [ ] Dynamic Webpage Interactions
-	- [ ] DOM Manipulation
-	- [ ] Callbacks
-		- [ ] Async/AJAX
-- [ ] SPA/Single-Page Application 
-	- [ ] UI Router Framework
+- [X] Dynamic Webpage Interactions
+	- [X] DOM Manipulation
+	- [X] Callbacks
+		- [X] Promises
+		- [X] Async/Await
+		- [X] AJAX
 
 ### Calculator Example
 
@@ -69,13 +69,13 @@ basic mathematical functions:
 
 Objectives:
 
-- [ ] Calculator
-	- [ ] Addition
-	- [ ] Subtraction
-	- [ ] Multiplication
-	- [ ] Division
-	- [ ] Modulus
-	- [ ] SquareRoot
+- [X] Calculator
+	- [X] Addition
+	- [X] Subtraction
+	- [X] Multiplication
+	- [X] Division
+	- [X] Modulus
+	- [X] SquareRoot
 
 ---
 
