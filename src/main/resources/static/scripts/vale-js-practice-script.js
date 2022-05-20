@@ -12,6 +12,7 @@ import domExample from "./webpageUI/domElements.js";
 import callbackExample from "./webpageUI/callback.js";
 import asyncExample from "./webpageUI/async.js";
 import ajaxExample from "./webpageUI/ajax.js";
+import calculator from "./calculator/calculator.js";
 
 console.log("!!! Modules Active !!!");
 
@@ -59,7 +60,10 @@ callbackExample();
 // Vale-Async
 asyncExample();
 
-
 // ========================================
 // Vale-AJAX-AsynchronousJavaScriptAndXML
 ajaxExample();
+
+// ========================================
+// Vale-Calculator
+calculator();

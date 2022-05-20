@@ -69,13 +69,13 @@ basic mathematical functions:
 
 Objectives:
 
-- [ ] Calculator
-	- [ ] Addition
-	- [ ] Subtraction
-	- [ ] Multiplication
-	- [ ] Division
-	- [ ] Modulus
-	- [ ] SquareRoot
+- [X] Calculator
+	- [X] Addition
+	- [X] Subtraction
+	- [X] Multiplication
+	- [X] Division
+	- [X] Modulus
+	- [X] SquareRoot
 
 ---
 
